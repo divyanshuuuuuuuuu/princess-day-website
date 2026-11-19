@@ -10,6 +10,7 @@ import FlipCards from '@/components/FlipCards';
 import TypewriterText from '@/components/TypewriterText';
 import WhacAMoleGame from '@/components/WhacAMoleGame';
 import SunflowerGarden from '@/components/SunflowerGarden';
+import { asset } from '@/lib/assets';
 
 interface MessageCardProps {
   isRevealed: boolean;
@@ -288,7 +289,7 @@ export default function MessageCard({
                           style={{ transform: 'rotate(15deg)' }}
                         >
                           <Image
-                            src="/assets/letter-C680mUtz.webp"
+                            src={asset('/assets/letter-C680mUtz.webp')}
                             alt="Decorative love letter illustration"
                             width={96}
                             height={96}

@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { asset } from '@/lib/assets';
 
 interface SunflowerGardenProps {
   onContinue: () => void;
@@ -865,7 +866,7 @@ export default function SunflowerGarden({
       {/* Hidden audio element for Khaab - Akhil */}
       <audio
         ref={audioRef}
-        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/assets/khaab.mp3`}
+        src={asset('/assets/khaab.mp3')}
         preload="auto"
       />
 

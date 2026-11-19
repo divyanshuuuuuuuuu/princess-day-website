@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { showToast } from '@/lib/toast';
+import { asset } from '@/lib/assets';
 
 interface PlaylistProps {
   onContinue?: () => void;
@@ -23,22 +24,22 @@ const tracks: Track[] = [
     id: 1,
     title: 'Dil Cheeze Tujhe Dedi',
     description: 'You own this heart, dedicated to you 💞',
-    image: '/assets/music1.png',
-    audio: '/assets/music1-Bpgt1BZ5.mp3',
+    image: asset('/assets/music1.png'),
+    audio: asset('/assets/music1-Bpgt1BZ5.mp3'),
   },
   {
     id: 2,
     title: 'If the world was ending',
     description: "Even if the world ends, I'd still find you 🤍",
-    image: '/assets/music2.png',
-    audio: '/assets/music2-mdcMq3L1.mp3',
+    image: asset('/assets/music2.png'),
+    audio: asset('/assets/music2-mdcMq3L1.mp3'),
   },
   {
     id: 3,
     title: 'Dil ka Jo Haal hai',
     description: 'Tu Kaare Dil Bekarar 💞',
-    image: '/assets/music3.png',
-    audio: '/assets/music3-ClPh4k2q.mp3',
+    image: asset('/assets/music3.png'),
+    audio: asset('/assets/music3-ClPh4k2q.mp3'),
   },
 ];
 
@@ -464,7 +465,7 @@ export default function Playlist({ onContinue, onBack }: PlaylistProps) {
                       ref={(el) => {
                         audioRefs.current[track.id] = el;
                       }}
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${track.audio}`}
+                      src={track.audio}
                       preload="metadata"
                       onEnded={() => {
                         setCurrentTrack(null);
