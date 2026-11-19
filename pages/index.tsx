@@ -52,9 +52,9 @@ export default function Home() {
         <meta name="author" content="Divyanshu" />
 
         {/* Favicon - Multiple formats for better browser support */}
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.svg`} />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.ico`} sizes="any" />
+        <link rel="apple-touch-icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.svg`} />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />

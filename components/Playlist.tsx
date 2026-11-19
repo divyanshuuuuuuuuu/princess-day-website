@@ -464,7 +464,7 @@ export default function Playlist({ onContinue, onBack }: PlaylistProps) {
                       ref={(el) => {
                         audioRefs.current[track.id] = el;
                       }}
-                      src={track.audio}
+                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${track.audio}`}
                       preload="metadata"
                       onEnded={() => {
                         setCurrentTrack(null);

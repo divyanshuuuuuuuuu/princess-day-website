@@ -13,10 +13,11 @@
 
 ---
 
-### 🌐 **[👉 CLICK HERE TO DEPLOY & VIEW LIVE WEBSITE 👈](https://vercel.com/new/clone?repository-url=https://github.com/divyanshuuuuuuuuu/princess-day-website)**
+### 🌐 **[👉 CLICK HERE TO VIEW LIVE WEBSITE 👈](https://divyanshuuuuuuuuu.github.io/princess-day-website/)**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/divyanshuuuuuuuuu/princess-day-website)
-*(Deploy online with 1-click on Vercel to get your free live `.vercel.app` link instantly!)*
+[![Live Demo](https://img.shields.io/badge/🌐_LIVE_WEBSITE-CLICK_HERE_TO_VIEW-FF1493?style=for-the-badge&logo=google-chrome&logoColor=white)](https://divyanshuuuuuuuuu.github.io/princess-day-website/)
+
+*(Live website is up and running — experience the full romantic surprise directly on your phone or PC without downloading anything!)*
 
 ---
 

@@ -865,7 +865,7 @@ export default function SunflowerGarden({
       {/* Hidden audio element for Khaab - Akhil */}
       <audio
         ref={audioRef}
-        src="/assets/khaab.mp3"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/assets/khaab.mp3`}
         preload="auto"
       />
 
