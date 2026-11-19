@@ -42,7 +42,7 @@ export default function Home() {
         <title>Princess Day Website 👑 Romantic Surprise for Your Princess</title>
         <meta
           name="description"
-          content="Princess Day Website — A magical, interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, Whac-A-Mole mini-game, and love playlist."
+          content="Princess Day Website: A magical, interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, Whac-A-Mole mini-game, and love playlist."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -61,7 +61,7 @@ export default function Home() {
         <meta property="og:title" content="Princess Day Website 👑 Romantic Surprise for Your Princess" />
         <meta
           property="og:description"
-          content="Princess Day Website — A magical interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, and mini-game."
+          content="Princess Day Website: A magical interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, and mini-game."
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta
@@ -74,7 +74,7 @@ export default function Home() {
         <meta name="twitter:title" content="Princess Day Website 👑 Romantic Surprise for Your Princess" />
         <meta
           name="twitter:description"
-          content="Princess Day Website — A magical romantic surprise website for your girlfriend with love letters, sunflower meadow, and playlist."
+          content="Princess Day Website: A magical romantic surprise website for your girlfriend with love letters, sunflower meadow, and playlist."
         />
         <meta name="twitter:image" content="/og-image.jpg" />
 
