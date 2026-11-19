@@ -13,8 +13,8 @@
 
 ---
 
-### 🌐 **[👉 CLICK HERE TO VIEW LIVE WEBSITE 👈](https://happy-princess-dayy.netlify.app/)**
-*(Live demo link — experience the romantic surprise in your browser!)*
+### 🌐 **[👉 CLICK HERE TO PREVIEW YOUR WEBSITE (LOCAL) 👈](http://localhost:8000)**
+*(Live preview link on your computer: http://localhost:8000)*
 
 ---
 
