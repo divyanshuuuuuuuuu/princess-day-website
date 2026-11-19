@@ -164,7 +164,7 @@ export default function FlipCards({ onRestart }: FlipCardsProps) {
                           fill
                           className="object-cover"
                           sizes="(max-width: 640px) 100vw, 33vw"
-                          loading="lazy"
+                          priority
                           onError={(e) => {
                             e.currentTarget.style.display = 'none';
                           }}

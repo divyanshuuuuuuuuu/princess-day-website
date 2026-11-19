@@ -1,15 +1,36 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Hero from '@/components/Hero';
 import MessageCard from '@/components/MessageCard';
 import Confetti from '@/components/Confetti';
 import { Toaster } from '@/lib/toast';
+import { asset } from '@/lib/assets';
+
+const PRELOAD_IMAGES = [
+  '/assets/intro-DzUiguR4.webp',
+  '/assets/intro-BrJOTFFc.webp',
+  '/assets/letter-C680mUtz.webp',
+  '/assets/pic1.png',
+  '/assets/pic2.png',
+  '/assets/pic3.png',
+  '/assets/music1.png',
+  '/assets/music2.png',
+  '/assets/music3.png',
+];
 
 export default function Home() {
   const [isGiftOpened, setIsGiftOpened] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
+
+  // Eagerly preload all critical illustrations, cards & music assets as soon as site opens
+  useEffect(() => {
+    PRELOAD_IMAGES.forEach((src) => {
+      const img = new window.Image();
+      img.src = asset(src);
+    });
+  }, []);
 
   const handleOpenGift = () => {
     setIsGiftOpened(true);
@@ -50,6 +71,16 @@ export default function Home() {
           content="princess day website, princess-day-website, national princess day website, website for girlfriend, romantic website, love letter surprise, custom website for girlfriend"
         />
         <meta name="author" content="Divyanshu" />
+
+        {/* Preload all critical illustrations & photos so they appear instantly */}
+        {PRELOAD_IMAGES.map((src) => (
+          <link
+            key={src}
+            rel="preload"
+            as="image"
+            href={asset(src)}
+          />
+        ))}
 
         {/* Favicon - Multiple formats for better browser support */}
         <link rel="icon" type="image/svg+xml" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/favicon.svg`} />

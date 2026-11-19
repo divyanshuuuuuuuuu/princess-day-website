@@ -259,6 +259,7 @@ export default function Playlist({ onContinue, onBack }: PlaylistProps) {
                   fill
                   className="object-cover"
                   sizes="48px"
+                  priority
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                   }}
@@ -403,6 +404,7 @@ export default function Playlist({ onContinue, onBack }: PlaylistProps) {
                             fill
                             className="object-cover"
                             sizes="224px"
+                            priority
                             onError={(e) => {
                               // Hide image on error, show fallback
                               e.currentTarget.style.display = 'none';

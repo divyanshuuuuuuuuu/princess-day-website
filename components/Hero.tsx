@@ -228,6 +228,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
                 width={80}
                 height={80}
                 className="w-20 h-auto object-contain"
+                priority
               />
             </div>
           </div>
