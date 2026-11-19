@@ -13,8 +13,10 @@
 
 ---
 
-### 🌐 **[👉 CLICK HERE TO PREVIEW YOUR WEBSITE (LOCAL) 👈](http://localhost:8000)**
-*(Live preview link on your computer: http://localhost:8000)*
+### 🌐 **[👉 CLICK HERE TO DEPLOY & VIEW LIVE WEBSITE 👈](https://vercel.com/new/clone?repository-url=https://github.com/divyanshuuuuuuuuu/princess-day-website)**
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/divyanshuuuuuuuuu/princess-day-website)
+*(Deploy online with 1-click on Vercel to get your free live `.vercel.app` link instantly!)*
 
 ---
 
