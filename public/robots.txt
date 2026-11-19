@@ -1,0 +1,6 @@
+# Allow all web crawlers including Googlebot
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://github.com/divyanshuuuuuuuuu/princess-day-website/sitemap.xml

@@ -133,7 +133,27 @@ Deploy your website for free in under 2 minutes:
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ)
+
+### What is the Princess Day Website?
+The **Princess Day Website** (`princess-day-website`) is a free, open-source romantic web application created to celebrate National Princess Day, birthdays, anniversaries, and special moments with your girlfriend, partner, or wife.
+
+### Can I change the names, photos, and songs?
+Yes! The codebase is completely customizable. You can change her name, add your personal photos to the 3D flip cards, customize the love letter, and add your favorite romantic songs with just a few clicks.
+
+### How can I get a customized website made for me?
+If you'd like a bespoke website created with customized animations, special themes, and personal memories, feel free to reach out directly via call or WhatsApp at **[+91 9303044289](tel:+919303044289)**.
+
+---
+
+## 🔍 Search & Keywords
+
+`princess-day-website` • `princess day website` • `national princess day website` • `romantic website for girlfriend` • `interactive love letter website` • `whac a mole princess game` • `sunflower sunset meadow website` • `gift for girlfriend github` • `romantic nextjs template`
+
+---
+
 ## 📄 License & Credits
 
-Made with 💕 for all the princesses in the world. Feel free to use and star ⭐ this repo!
-If you use this project, don't forget to give it a star on GitHub!
+Made with 💕 by **Divyanshu** for all the princesses in the world. Feel free to use and star ⭐ this repo!
+If this project helped you make someone smile, don't forget to give it a star on GitHub! 🌟
+Repository: **[https://github.com/divyanshuuuuuuuuu/princess-day-website](https://github.com/divyanshuuuuuuuuu/princess-day-website)**

@@ -39,17 +39,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy National Princess Day 👑</title>
+        <title>Princess Day Website 👑 Romantic Surprise for Your Princess</title>
         <meta
           name="description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="Princess Day Website — A magical, interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, Whac-A-Mole mini-game, and love playlist."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="National Princess Day, love letter, surprise, romantic, interactive"
+          content="princess day website, princess-day-website, national princess day website, website for girlfriend, romantic website, love letter surprise, custom website for girlfriend"
         />
-        <meta name="author" content="Made with 💕" />
+        <meta name="author" content="Divyanshu" />
 
         {/* Favicon - Multiple formats for better browser support */}
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -58,29 +58,51 @@ export default function Home() {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Happy National Princess Day 👑" />
+        <meta property="og:title" content="Princess Day Website 👑 Romantic Surprise for Your Princess" />
         <meta
           property="og:description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="Princess Day Website — A magical interactive romantic surprise website for your girlfriend with love letters, sunflower sunset meadow, and mini-game."
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta
           property="og:url"
-          content="https://national-princess-day.vercel.app"
+          content="https://github.com/divyanshuuuuuuuuu/princess-day-website"
         />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Happy National Princess Day 👑" />
+        <meta name="twitter:title" content="Princess Day Website 👑 Romantic Surprise for Your Princess" />
         <meta
           name="twitter:description"
-          content="A special surprise for National Princess Day"
+          content="Princess Day Website — A magical romantic surprise website for your girlfriend with love letters, sunflower meadow, and playlist."
         />
         <meta name="twitter:image" content="/og-image.jpg" />
 
         {/* Additional SEO */}
         <meta name="theme-color" content="#fff8e7" />
-        <link rel="canonical" href="https://national-princess-day.vercel.app" />
+        <link rel="canonical" href="https://github.com/divyanshuuuuuuuuu/princess-day-website" />
+
+        {/* Structured Data (JSON-LD) for Google Search Engine Optimization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebApplication',
+              name: 'Princess Day Website',
+              url: 'https://github.com/divyanshuuuuuuuuu/princess-day-website',
+              description:
+                'A magical interactive romantic surprise website for National Princess Day featuring a love letter, Whac-A-Mole mini-game, sunflower sunset serenade, and love song playlist.',
+              applicationCategory: 'EntertainmentApplication',
+              operatingSystem: 'All',
+              author: {
+                '@type': 'Person',
+                name: 'Divyanshu',
+                telephone: '+919303044289',
+              },
+            }),
+          }}
+        />
       </Head>
 
       <main className="min-h-screen">
