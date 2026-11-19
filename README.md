@@ -108,18 +108,17 @@ Open `components/FlipCards.tsx`:
 
 ## 🚢 Free 1-Click Deployment
 
-Deploy your website for free in under 2 minutes:
+Deploy your website for free in under 2 minutes with zero setup:
 
-### Option A: Deploy on Vercel
-1. Fork or push this repository to your GitHub account.
-2. Sign in to [Vercel](https://vercel.com/) and click **Add New Project**.
-3. Import this repository — Vercel will automatically detect Next.js.
-4. Click **Deploy**!
+### Deploy to Vercel (Recommended)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/divyanshuuuuuuuuu/princess-day-website)
 
-### Option B: Deploy on Netlify
-1. Sign in to [Netlify](https://www.netlify.com/).
-2. Click **Add new site** -> **Import an existing project**.
-3. Choose your GitHub repository and click **Deploy**.
+Click the button above, sign in with your GitHub account, and Vercel will automatically build and give you a free live URL (e.g., `https://princess-day-website.vercel.app`)!
+
+### Deploy to Netlify
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/divyanshuuuuuuuuu/princess-day-website)
+
+Click the button above to deploy on Netlify with the pre-configured `netlify.toml` file.
 
 ---
 
